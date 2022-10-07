@@ -1,0 +1,20 @@
+.testimonial {
+    border: 1px solid #ccc;
+    padding: 2rem;
+    height: 100%;
+    line-height: 1.3rem;
+}
+
+.testimonial-link a {
+    text-decoration: none;
+    color: blue;
+}
+
+.testimonial-body {
+    margin: 1rem 0;
+    line-height: 1.5rem;
+}
+
+.testimonial-author {
+    font-weight: bold;
+}

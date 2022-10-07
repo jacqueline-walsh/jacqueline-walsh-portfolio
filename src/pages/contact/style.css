@@ -1,0 +1,12 @@
+.contact-heading {
+    text-align: center;
+}
+
+.contact hr {
+    opacity: .25;
+    margin-bottom: 4rem;
+}
+
+form {
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+h1.about-heading {
+    margin-bottom: 2rem;
+}
+
+h3.about-subheading {
+    margin-bottom: 0.5rem;
+}
+
+.about-horizontal-rule {
+    margin: 2rem 6rem;
+    opacity: 0.3;
+}
+
+p.about-paragraph {
+    margin-bottom: 1.25rem;
+    line-height: 1.5rem;
+}

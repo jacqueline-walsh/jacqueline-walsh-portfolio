@@ -1,0 +1,15 @@
+.portfolio-container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-gap: 1rem;
+    margin: 2rem 1rem;
+} 
+
+.portfolio-container-heading {
+    margin-bottom: 1rem;  
+}
+
+.portfolio-container-github-link {
+    text-decoration: none;
+    color: blue;
+}
