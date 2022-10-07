@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jacqueline-walsh-portfolio/static/css/main.c6f9cf45.css",
+    "main.js": "/jacqueline-walsh-portfolio/static/js/main.b8ed4922.js",
+    "index.html": "/jacqueline-walsh-portfolio/index.html",
+    "main.c6f9cf45.css.map": "/jacqueline-walsh-portfolio/static/css/main.c6f9cf45.css.map",
+    "main.b8ed4922.js.map": "/jacqueline-walsh-portfolio/static/js/main.b8ed4922.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6f9cf45.css",
+    "static/js/main.b8ed4922.js"
+  ]
+}
