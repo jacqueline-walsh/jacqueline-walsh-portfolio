@@ -11,15 +11,19 @@ import "./App.css";
 
 function App() {
   const location = useLocation();
-  const homePage = location.pathname === "/";
+  const homePage = location.pathname === "/jacqueline-walsh-portfolio/";
 
   return (
     <div className="App">
       <Navbar />
 
-      <div className={!homePage ? "pages" : "home-container"}>
+      <div className={!homePage ? "pages" : ""}>
         <Routes>
-          <Route exact path="/" element={<Home />}></Route>
+          <Route
+            exact
+            path="/jacqueline-walsh-portfolio/"
+            element={<Home />}
+          ></Route>
           <Route exact path="/about" element={<About />}></Route>
           <Route
             exact
