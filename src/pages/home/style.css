@@ -1,6 +1,5 @@
-.home-container {
+body.home-container {
     background-image: url(https://jacqueline-walsh-portfolio.s3-eu-west-1.amazonaws.com/website_dev_background.png);
-    height: 100vh;
     background-size: cover;
     margin: -2rem;
     background-position: center;
