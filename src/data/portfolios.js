@@ -1,6 +1,15 @@
 export const portfolios = [
   {
     id: 1,
+    title: "Hacker News",
+    url: "https://jacqueline-walsh.github.io/Hacker-News/",
+    description:
+      "Get the Latest Top and New Stories - React Library featuring Hacker News API, pagination and filter - hosted on GitHub Pages",
+    image:
+      "https://jacqueline-walsh-portfolio.s3.eu-west-1.amazonaws.com/mac_screen_hacker_news.png",
+  },
+  {
+    id: 2,
     title: "Breaking Bad",
     url: "https://jacqueline-walsh.github.io/Breaking-Bad/",
     description:
@@ -9,7 +18,7 @@ export const portfolios = [
       "https://jacqueline-walsh-portfolio.s3-eu-west-1.amazonaws.com/mac_screen_BreakingBad.png",
   },
   {
-    id: 2,
+    id: 3,
     title: "Recipe Search",
     url: "https://jacqueline-walsh.github.io/recipe-search/",
     description:
@@ -18,7 +27,7 @@ export const portfolios = [
       "https://jacqueline-walsh-portfolio.s3-eu-west-1.amazonaws.com/mac_screen_recipeSearch.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "BookIt",
     url: "https://bookit-online-book-store.herokuapp.com/",
     description:
@@ -27,7 +36,7 @@ export const portfolios = [
       "https://jacqueline-walsh-portfolio.s3-eu-west-1.amazonaws.com/mac_screen.jpg",
   },
   {
-    id: 4,
+    id: 5,
     title: "ChefMate",
     url: "http://chefmate-manager.herokuapp.com/",
     description:
@@ -36,7 +45,7 @@ export const portfolios = [
       "https://jacqueline-walsh-portfolio.s3-eu-west-1.amazonaws.com/mac_screen_chefMate.jpg",
   },
   {
-    id: 5,
+    id: 6,
     title: "Game of Thrones",
     url: "https://jacqueline-walsh.github.io/Game_of_Thrones_Battle_Chart/",
     description:
@@ -45,7 +54,7 @@ export const portfolios = [
       "https://jacqueline-walsh-portfolio.s3-eu-west-1.amazonaws.com/mac_screen_game_of_thrones.jpg",
   },
   {
-    id: 6,
+    id: 7,
     title: "Queen",
     url: "https://jacqueline-walsh.github.io/queen/index.html",
     description:
@@ -54,7 +63,7 @@ export const portfolios = [
       "https://jacqueline-walsh-portfolio.s3-eu-west-1.amazonaws.com/mac_screen_queen.jpg",
   },
   {
-    id: 6,
+    id: 8,
     title: "Irish4Fun",
     url: "https://irish4fun.herokuapp.com/",
     description:
