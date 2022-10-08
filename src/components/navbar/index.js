@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar-container">
         <div className="navbar-header">
-          <Link to="/jacqueline-walsh-portfolio/" element={<Home />}>
+          <Link to="/" element={<Home />}>
             <img
               className="navbar-logo"
               src="https://jacqueline-walsh-portfolio.s3-eu-west-1.amazonaws.com/profile.png"
@@ -26,26 +26,18 @@ const Navbar = () => {
         </div>
         <ul className={click ? "navbar-menu active" : "navbar-menu"}>
           <li className="navbar-item">
-            <Link
-              to="/jacqueline-walsh-portfolio/"
-              className="navbar-links"
-              onClick={handleClick}
-            >
+            <Link to="/" className="navbar-links" onClick={handleClick}>
               Home
             </Link>
           </li>
           <li className="navbar-item" onClick={handleClick}>
-            <Link
-              to="/jacqueline-walsh-portfolio/about"
-              activeclassname="active"
-              className="navbar-links"
-            >
+            <Link to="/about" activeclassname="active" className="navbar-links">
               About
             </Link>
           </li>
           <li className="navbar-item" onClick={handleClick}>
             <Link
-              to="/jacqueline-walsh-portfolio/portfolio"
+              to="/portfolio"
               activeclassname="active"
               className="navbar-links"
             >
@@ -54,7 +46,7 @@ const Navbar = () => {
           </li>
           <li className="navbar-item" onClick={handleClick}>
             <Link
-              to="/jacqueline-walsh-portfolio/testimonials"
+              to="/testimonials"
               activeclassname="active"
               className="navbar-links"
             >
@@ -63,7 +55,7 @@ const Navbar = () => {
           </li>
           <li className="navbar-item" onClick={handleClick}>
             <Link
-              to="/jacqueline-walsh-portfolio/contact"
+              to="/contact"
               activeclassname="active"
               className="navbar-links"
             >
