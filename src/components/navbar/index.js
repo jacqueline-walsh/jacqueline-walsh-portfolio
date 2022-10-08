@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar-container">
         <div className="navbar-header">
-          <Link to="/jacqueline-walsh-portfolio" element={<Home />}>
+          <Link to="/" element={<Home />}>
             <img
               className="navbar-logo"
               src="https://jacqueline-walsh-portfolio.s3-eu-west-1.amazonaws.com/profile.png"
@@ -26,11 +26,7 @@ const Navbar = () => {
         </div>
         <ul className={click ? "navbar-menu active" : "navbar-menu"}>
           <li className="navbar-item">
-            <Link
-              to="/jacqueline-walsh-portfolio"
-              className="navbar-links"
-              onClick={handleClick}
-            >
+            <Link to="/" className="navbar-links" onClick={handleClick}>
               Home
             </Link>
           </li>
