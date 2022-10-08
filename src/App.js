@@ -11,7 +11,7 @@ import "./App.css";
 
 function App() {
   const location = useLocation();
-  const homePage = location.pathname === "/jacqueline-walsh-portfolio/";
+  const homePage = location.pathname === "/gh-pages-url";
 
   return (
     <div className="App">
@@ -19,11 +19,7 @@ function App() {
 
       <div className={!homePage ? "pages" : ""}>
         <Routes>
-          <Route
-            exact
-            path="/jacqueline-walsh-portfolio/"
-            element={<Home />}
-          ></Route>
+          <Route exact path="/gh-pages-url" element={<Home />}></Route>
           <Route
             exact
             path="/jacqueline-walsh-portfolio/about"
