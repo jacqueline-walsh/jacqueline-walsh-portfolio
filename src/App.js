@@ -24,18 +24,26 @@ function App() {
             path="/jacqueline-walsh-portfolio/"
             element={<Home />}
           ></Route>
-          <Route exact path="/about" element={<About />}></Route>
           <Route
             exact
-            path="/portfolio"
+            path="/jacqueline-walsh-portfolio/about"
+            element={<About />}
+          ></Route>
+          <Route
+            exact
+            path="/jacqueline-walsh-portfolio/portfolio"
             element={<PortfolioContainer />}
           ></Route>
           <Route
             exact
-            path="/testimonials"
+            path="/jacqueline-walsh-portfolio/testimonials"
             element={<TestimonialContainer />}
           ></Route>
-          <Route exact path="/contact" element={<Contact />}></Route>
+          <Route
+            exact
+            path="/jacqueline-walsh-portfolio/contact"
+            element={<Contact />}
+          ></Route>
         </Routes>
       </div>
       {!homePage && <Footer />}

@@ -35,13 +35,17 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="navbar-item" onClick={handleClick}>
-            <Link to="/about" activeclassname="active" className="navbar-links">
+            <Link
+              to="/jacqueline-walsh-portfolio/about"
+              activeclassname="active"
+              className="navbar-links"
+            >
               About
             </Link>
           </li>
           <li className="navbar-item" onClick={handleClick}>
             <Link
-              to="/portfolio"
+              to="/jacqueline-walsh-portfolio/portfolio"
               activeclassname="active"
               className="navbar-links"
             >
@@ -50,7 +54,7 @@ const Navbar = () => {
           </li>
           <li className="navbar-item" onClick={handleClick}>
             <Link
-              to="/testimonials"
+              to="/jacqueline-walsh-portfolio/testimonials"
               activeclassname="active"
               className="navbar-links"
             >
@@ -59,7 +63,7 @@ const Navbar = () => {
           </li>
           <li className="navbar-item" onClick={handleClick}>
             <Link
-              to="/contact"
+              to="/jacqueline-walsh-portfolio/contact"
               activeclassname="active"
               className="navbar-links"
             >
