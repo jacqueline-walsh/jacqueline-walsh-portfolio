@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/jacqueline-walsh-portfolio/static/css/main.466dd423.css",
-    "main.js": "/jacqueline-walsh-portfolio/static/js/main.57c01010.js",
+    "main.css": "/jacqueline-walsh-portfolio/static/css/main.c2e5b6b9.css",
+    "main.js": "/jacqueline-walsh-portfolio/static/js/main.384d7615.js",
     "index.html": "/jacqueline-walsh-portfolio/index.html",
-    "main.466dd423.css.map": "/jacqueline-walsh-portfolio/static/css/main.466dd423.css.map",
-    "main.57c01010.js.map": "/jacqueline-walsh-portfolio/static/js/main.57c01010.js.map"
+    "main.c2e5b6b9.css.map": "/jacqueline-walsh-portfolio/static/css/main.c2e5b6b9.css.map",
+    "main.384d7615.js.map": "/jacqueline-walsh-portfolio/static/js/main.384d7615.js.map"
   },
   "entrypoints": [
-    "static/css/main.466dd423.css",
-    "static/js/main.57c01010.js"
+    "static/css/main.c2e5b6b9.css",
+    "static/js/main.384d7615.js"
   ]
 }
