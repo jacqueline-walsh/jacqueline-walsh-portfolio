@@ -6,7 +6,7 @@ export const technicalSkills = [
   },
   {
     id: 2,
-    title: "Frameworks/Libraries:",
+    title: "Frameworks / Libraries:",
     description: "React, Angular, Flask, Django",
   },
   {
@@ -23,12 +23,12 @@ export const technicalSkills = [
     id: 5,
     title: "Applications:",
     description:
-      "Microsoft Office Suite (Word, Excel, PowerPoint, Outlook, Access), Photoshop, WordPress, Drupal",
+      "Microsoft Office Suite (Word, Excel, PowerPoint, Outlook, Access), Photoshop, WordPress, Drupal, Storybook",
   },
   {
     id: 6,
     title: "Other:",
     description:
-      "Excellent Communication Skills and Strong Customer Service Experience, Agile Methodology, Well Organised with Solid Administration Skills",
+      "Excellent Communication Skills and Strong Customer Service Experience, Agile Methodology, Jira, Well Organised with Solid Administration Skills",
   },
 ];
