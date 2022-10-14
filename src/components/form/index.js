@@ -33,7 +33,7 @@ const Form = () => {
         <div className="form-contact-name">
           <label htmlFor="name">Name:</label>
           <br />
-          <input type="text" className="form-control" name="name" />
+          <input type="text" className="form-control" name="name" required />
         </div>
         <div className="form-contact-company">
           <label htmlFor="name">Company:</label>
@@ -43,17 +43,17 @@ const Form = () => {
         <div className="form-contact-email">
           <label htmlFor="name">Email:</label>
           <br />
-          <input type="email" className="form-control" name="email" />
+          <input type="email" className="form-control" name="email" required />
         </div>
         <div className="form-contact-subject">
           <label htmlFor="name">Subject:</label>
           <br />
-          <input type="text" className="form-control" name="subject" />
+          <input type="text" className="form-control" name="subject" required />
         </div>
         <div className="form-contact-message">
           <label htmlFor="name">Message:</label>
           <br />
-          <textarea name="message" className="form-control" />
+          <textarea name="message" className="form-control" required />
         </div>
         <div className="form-contact-submit">
           <input

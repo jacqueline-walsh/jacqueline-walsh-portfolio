@@ -1,4 +1,5 @@
 import React from "react";
+import { technicalSkills } from "../../data/technical";
 import "./style.css";
 
 const About = () => {
@@ -36,24 +37,19 @@ const About = () => {
         2016 - BSc Digital Technology & Design (Coding Stream) - Dublin
         Institute of Technology - Distinction
       </p>
+
       <hr className="about-horizontal-rule" />
       <h3 className="about-subheading">TECHNICAL SKILLS</h3>
-      <p className="about-paragraph">
-        Programming Languages: HTML5, CSS3, JavaScript, Python, Java, PHP, Ruby
-      </p>
-      <p className="about-paragraph">
-        Frameworks/Libraries: React, Angular, Flask, Django, Ruby on Rails,
-        CodeIgniter Version Control: Git / Github
-      </p>
-      <p className="about-paragraph">Database Systems: MySQL, MongoDB</p>
-      <p className="about-paragraph">
-        Applications: Microsoft Office Suite (Word, Excel, PowerPoint, Outlook,
-        Access), Photoshop, WordPress, Drupal
-      </p>
-      <p className="about-paragraph">
-        Excellent Communication Skills and Strong Customer Service Experience,
-        Agile Methodology, Well Organised with Solid Administration Skills
-      </p>
+      {technicalSkills.map((technical) => {
+        return (
+          <div className="about-technical-container" key={technical.id}>
+            <div className="about-techical-title">{technical.title}</div>
+            <div className="about-technical-description">
+              {technical.description}
+            </div>
+          </div>
+        );
+      })}
       <hr className="about-horizontal-rule" />
       <h3 className="about-subheading">INTERESTS</h3>
       <p className="about-paragraph">
