@@ -1,4 +1,5 @@
 import React from "react";
+import Profile from "../../components/profile";
 import { technicalSkills } from "../../data/technical";
 import "./style.css";
 
@@ -6,19 +7,7 @@ const About = () => {
   return (
     <div className="about">
       <h1 className="about-heading">About Me</h1>
-      <h3 className="about-subheading">PROFILE</h3>
-      <p className="about-paragraph">
-        I was originally born in Yorkshire, United Kingdom and relocated to
-        Jersey Channel Islangs in the late 80's where I began a career in
-        Finance. In 2005 I moved to my current home in Galway, Ireland where I
-        took a parental break to raising my two children.
-      </p>
-      <p className="about-paragraph">
-        While taking a parental break I studied extensively the field of
-        Software Development and after gaining many qualifications I returned to
-        work in 2021 to work for Oracle in Dublin as a Member of the Technical
-        Team.
-      </p>
+      <Profile />
       <hr className="about-horizontal-rule" />
       <h3 className="about-subheading">EDUCATION</h3>
       <p className="about-paragraph">
