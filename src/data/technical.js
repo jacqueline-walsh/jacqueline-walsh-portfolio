@@ -17,18 +17,18 @@ export const technicalSkills = [
   {
     id: 4,
     title: "Database Systems:",
-    description: "MySQL, MongoDB",
+    description: "MySQL, NoSQL",
   },
   {
     id: 5,
     title: "Applications:",
     description:
-      "Microsoft Office Suite (Word, Excel, PowerPoint, Outlook, Access), Photoshop, WordPress, Drupal, Storybook",
+      "Microsoft Office Suite, Photoshop, WordPress, Drupal, Storybook, Jira",
   },
   {
     id: 6,
     title: "Other:",
     description:
-      "Excellent Communication Skills and Strong Customer Service Experience, Agile Methodology, Jira, Well Organised with Solid Administration Skills",
+      "Excellent Communication Skills and Strong Customer Service Experience, Agile Methodology, Well Organised with Solid Administration Skills",
   },
 ];
