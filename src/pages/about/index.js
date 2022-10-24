@@ -42,7 +42,7 @@ const About = () => {
       <hr className="about-horizontal-rule" />
       <h3 className="about-subheading">INTERESTS</h3>
       <p className="about-paragraph">
-        When not working I enjoy photography, meeting freinds and working out at
+        When not working I enjoy photography, meeting friends and working out at
         the local gym and taking myself into an unknown story from a book
       </p>
       <hr className="about-horizontal-rule" />

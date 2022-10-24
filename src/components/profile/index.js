@@ -14,17 +14,17 @@ const Profile = () => {
       <p className="profile-paragraph">
         While taking a parental break, I studied the field of software
         development, where my enthusiasm to gain knowledge took me on a long and
-        exciting journey. In 2021, I started working for Oracle in Dublin as a
-        Member of the Technical Team.
+        exciting journey. In 2021, I joined the Oracle Digital Experience Team
+        in Dublin as a React Frontend Developer.
       </p>
       <p className="profile-paragraph">
         As a Frontend Developer working in an agile team environment, I am
-        responsible for building and refactoring react components. Each
-        component is unit tested using the Jest Library and has a storybook
-        component which provides an extensive visual library for the user.
-        Working from home, I am lucky to be able to connect and engage with a
-        team worldwide. This has provided a warm cultural and team comradery
-        that makes my job such a joy.
+        responsible for building and refactoring React components. Each
+        component is unit tested using the Jest Library and has a coresponding
+        storybook component which provides an extensive visual library for the
+        end user. Working from home, I am lucky to be able to connect and engage
+        with a team worldwide. This has provided a warm cultural and team
+        comradery that makes my job such a joy.
       </p>
       <p className="profile-paragraph">
         Through continuous development over the years, I have gained knowledge
