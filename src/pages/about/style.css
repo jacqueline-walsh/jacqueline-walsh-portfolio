@@ -36,12 +36,6 @@ p.about-paragraph {
     align-items: center;
 }
 
-img.about-profile-link {
-    width: 9rem;
-    margin-top: 1rem;
-    cursor: pointer;
-}
-
 img.about-profile-link:hover {
     box-shadow: 2px 2px 2px #666;
 }

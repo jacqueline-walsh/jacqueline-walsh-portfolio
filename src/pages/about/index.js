@@ -1,5 +1,6 @@
 import React from "react";
 import Profile from "../../components/profile";
+import Logo from "../../components/logo";
 import { technicalSkills } from "../../data/technical";
 import "./style.css";
 
@@ -16,36 +17,17 @@ const About = () => {
         provided on request.
       </p>
 
-      {/* <Logo
-        logoLink={"https://www.linkedin.com/in/jacquelinewalsh/"}
-        imageSrc={
-          "https://www.kindpng.com/picc/m/206-2062823_imagem-png-linkedin-transparent-png.png"
-        }
-        alt="linkedIn link"
-      /> */}
       <div className="about-profile-links-container">
-        <a
-          href="https://www.linkedin.com/in/jacquelinewalsh/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="about-profile-link"
-            src="https://www.kindpng.com/picc/m/206-2062823_imagem-png-linkedin-transparent-png.png"
-            alt="LinkedIn Logo Png"
-          />
-        </a>
-        <a
-          href="https://github.com/jacqueline-walsh/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="about-profile-link"
-            src="https://www.kindpng.com/picc/m/128-1280187_github-logo-png-github-transparent-png.png"
-            alt="Github Logo Png"
-          />
-        </a>
+        <Logo
+          logoLink="https://www.linkedin.com/in/jacquelinewalsh/"
+          imageSrc="https://www.kindpng.com/picc/m/206-2062823_imagem-png-linkedin-transparent-png.png"
+          alt="linkedIn link"
+        />
+        <Logo
+          logoLink="https://github.com/jacqueline-walsh/"
+          imageSrc="https://www.kindpng.com/picc/m/128-1280187_github-logo-png-github-transparent-png.png"
+          alt="Github Logo link"
+        />
       </div>
       <hr className="about-horizontal-rule" />
       <h3 className="about-subheading">EDUCATION</h3>
