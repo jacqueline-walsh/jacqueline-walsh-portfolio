@@ -23,29 +23,30 @@ const About = () => {
         }
         alt="linkedIn link"
       /> */}
-      <a
-        href="https://www.linkedin.com/in/jacquelinewalsh/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          className="about-profile-link"
-          src="https://www.kindpng.com/picc/m/206-2062823_imagem-png-linkedin-transparent-png.png"
-          alt="LinkedIn Logo Png"
-        />
-      </a>
-      <br />
-      <a
-        href="https://github.com/jacqueline-walsh/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          className="about-profile-link"
-          src="https://www.kindpng.com/picc/m/128-1280187_github-logo-png-github-transparent-png.png"
-          alt="Github Logo Png"
-        />
-      </a>
+      <div className="about-profile-links-container">
+        <a
+          href="https://www.linkedin.com/in/jacquelinewalsh/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="about-profile-link"
+            src="https://www.kindpng.com/picc/m/206-2062823_imagem-png-linkedin-transparent-png.png"
+            alt="LinkedIn Logo Png"
+          />
+        </a>
+        <a
+          href="https://github.com/jacqueline-walsh/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="about-profile-link"
+            src="https://www.kindpng.com/picc/m/128-1280187_github-logo-png-github-transparent-png.png"
+            alt="Github Logo Png"
+          />
+        </a>
+      </div>
       <hr className="about-horizontal-rule" />
       <h3 className="about-subheading">EDUCATION</h3>
       <p className="about-paragraph">
