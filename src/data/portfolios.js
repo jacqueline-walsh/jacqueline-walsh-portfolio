@@ -10,12 +10,12 @@ export const portfolios = [
   },
   {
     id: 2,
-    title: "Breaking Bad",
-    url: "https://jacqueline-walsh.github.io/Breaking-Bad/",
+    title: "Fitness App",
+    url: "https://jacqueline-walsh.github.io/fitness-app/",
     description:
-      "Search the cast of Breaking Bad - React Library featuring Breaking Bad API and pagination - hosted on GitHub Pages",
+      "Gold Gym Fitness App - React Library featuring fetch api and exercise api from rapidApi.com - hosted on GitHub Pages",
     image:
-      "https://jacqueline-walsh-portfolio.s3-eu-west-1.amazonaws.com/mac_screen_BreakingBad.png",
+      "https://jacqueline-walsh-portfolio.s3.eu-west-1.amazonaws.com/exercise-app.png",
   },
   {
     id: 3,
@@ -29,18 +29,18 @@ export const portfolios = [
   {
     id: 4,
     title: "BookIt",
-    url: "https://bookit-online-book-store.herokuapp.com/",
+    url: "https://github.com/jacqueline-walsh/bookit",
     description:
-      "An online ecommerce book store - Python Django Framework, JavaScript, SQLite Database - hosted on Heroku",
+      "An online ecommerce book store - Python Django Framework, JavaScript, SQLite Database - See Github Repo",
     image:
       "https://jacqueline-walsh-portfolio.s3-eu-west-1.amazonaws.com/mac_screen.jpg",
   },
   {
     id: 5,
     title: "ChefMate",
-    url: "http://chefmate-manager.herokuapp.com/",
+    url: "https://github.com/jacqueline-walsh/chef-mate",
     description:
-      "A Recipe Management Tool - Python Flask Framework, JavaScript, MongoDB Database - hosted on Heroku",
+      "A Recipe Management Tool - Python Flask Framework, JavaScript, MongoDB Database - See Github Repo",
     image:
       "https://jacqueline-walsh-portfolio.s3-eu-west-1.amazonaws.com/mac_screen_chefMate.jpg",
   },
@@ -65,9 +65,9 @@ export const portfolios = [
   {
     id: 8,
     title: "Irish4Fun",
-    url: "https://irish4fun.herokuapp.com/",
+    url: "https://github.com/jacqueline-walsh/irish4fun",
     description:
-      "Interactive storybook teaching children colours of the rainbow in Irish - Desktop Development Only - Python, Flask, JavaScript turn.js - hosted on Heroku",
+      "Interactive storybook teaching children colours of the rainbow in Irish - Desktop Development Only - Python, Flask, JavaScript turn.js - See Github Repo",
     image:
       "https://jacqueline-walsh-portfolio.s3-eu-west-1.amazonaws.com/mac_screen_irish4fun.jpg",
   },
