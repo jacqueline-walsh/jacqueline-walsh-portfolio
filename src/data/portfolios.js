@@ -11,7 +11,7 @@ export const portfolios = [
   {
     id: 2,
     title: "Fitness App",
-    url: "https://jacqueline-walsh.github.io/fitness-app/",
+    url: "https://jacqueline-walsh.github.io/gym-fitness-app/",
     description:
       "Gold Gym Fitness App - React Library featuring fetch api and exercise api from rapidApi.com - hosted on GitHub Pages",
     image:
