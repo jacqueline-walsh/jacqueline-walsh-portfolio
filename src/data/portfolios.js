@@ -11,9 +11,9 @@ export const portfolios = [
   {
     id: 2,
     title: "Fitness App",
-    url: "https://jacqueline-walsh.github.io/gym-fitness-app/",
+    url: "https://main.d28gakvd3dw05h.amplifyapp.com/",
     description:
-      "Gold Gym Fitness App - React Library featuring fetch api and exercise api from rapidApi.com - hosted on GitHub Pages",
+      "Gold Gym Fitness App - React Library featuring fetch api and exercise api from rapidApi.com - hosted on AWS Amplify",
     image:
       "https://jacqueline-walsh-portfolio.s3.eu-west-1.amazonaws.com/exercise-app.png",
   },
