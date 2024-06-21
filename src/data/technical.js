@@ -2,7 +2,7 @@ export const technicalSkills = [
   {
     id: 1,
     title: "Programming Languages:",
-    description: "HTML5, CSS3, JavaScript, Python, Java",
+    description: "JavaScript, Typescript, Python, Java",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const technicalSkills = [
   {
     id: 4,
     title: "Database Systems:",
-    description: "MySQL, NoSQL",
+    description: "MySQL, NoSQL, GraphQL",
   },
   {
     id: 5,
