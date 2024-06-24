@@ -52,6 +52,7 @@ const Navbar = () => {
               Testimonials
             </Link>
           </li>
+          {/*
           <li className="navbar-item" onClick={handleClick}>
             <Link
               to="/contact"
@@ -61,6 +62,7 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
+          */ }
         </ul>
         <div className="nav-icon" onClick={handleClick}>
           <i className={click ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
